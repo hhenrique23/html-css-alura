@@ -40,6 +40,24 @@ nav a:hover{
     padding: 50px 0px;
 }
 
+.produtos li:hover{
+    border-color: red;
+
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+    color: red;
+}
+
+.produtos li:hover p{
+    color: red;
+}
+
+.produtos li:active{
+    border-color: green;
+}
+
 .produtos li{
     display: inline-block;
     text-align: center;
@@ -51,6 +69,8 @@ nav a:hover{
     padding: 30px 20px;
     box-sizing: border-box;
 }
+
+
 
 .produtos h2{
     font-size: 30px;
@@ -68,4 +88,18 @@ nav a:hover{
     margin: 10px 0 0;
 }
 
+footer{
+    text-align: center;
+    background-image: url(imagens-pag02/bg.jpg);
+    padding: 40px 0px;
+}
 
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.copyright::before{
+    content: '\00A9\00A0';
+}

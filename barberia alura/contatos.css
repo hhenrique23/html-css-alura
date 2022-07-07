@@ -75,3 +75,45 @@ footer{
 .copyright::before{
     content: '\00A9\00A0';
 }
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: darkorange;
+    transform: scale(1.1);
+    transfor: rotate(360deg) ;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 20px 0 40px;
+} 
+
+thead{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+tbody{
+    background-color: orange;
+    color: white;
+}
+
+td, th{
+    text-align: center;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+}

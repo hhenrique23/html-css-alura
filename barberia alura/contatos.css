@@ -92,7 +92,6 @@ footer{
 .enviar:hover{
     background-color: darkorange;
     transform: scale(1.1);
-    transfor: rotate(360deg) ;
 }
 
 table{

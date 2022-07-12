@@ -57,3 +57,32 @@ footer{
     width: 100%;
     
 }
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    clear: left;
+}
+
+.principal  p{
+    margin-bottom: 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.img-beneficios{
+    width: 60%;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}

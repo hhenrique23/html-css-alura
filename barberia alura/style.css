@@ -39,8 +39,95 @@ nav a:hover{
 }
 
 main{
+    background-image: linear-gradient(to bottom, white, grey);
+    
+}
+
+.banner{
+    width: 100%;
+    
+}
+
+.principal{
+    padding: 3em 0;
     width: 1200px;
     margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    clear: left;
+}
+
+.titulo-principal::first-letter{
+    font-weight: bold;
+}
+
+.principal  p{
+    margin-bottom: 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.beneficios{
+    padding: 3em 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios{
+    display: inline-block;
+    width: 40%;
+    list-style: none;
+    vertical-align: top;
+}
+
+.itens{
+    line-height: 1.5em;
+
+}
+
+.itens::before{
+    content: '\2B50';
+}
+
+.img-beneficios{
+    width: 60%;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa{
+    padding: 3em 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.video{
+    width: 560px;
+    margin: 2em auto;
 }
 
 footer{
@@ -58,48 +145,3 @@ footer{
 .copyright::before{
     content: '\00A9\00A0';
 }
-
-
-.banner{
-    width: 100%;
-    
-}
-
-.titulo-principal{
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 1em;
-    clear: left;
-}
-
-.principal  p{
-    margin-bottom: 1em;
-}
-
-.principal strong{
-    font-weight: bold;
-}
-
-.principal em{
-    font-style: italic;
-}
-
-.img-beneficios{
-    width: 60%;
-}
-
-.utensilios{
-    width: 120px;
-    float: left;
-    margin: 0 20px 20px 0;
-}
-
-.mapa{
-    padding: 3em 0;
-}
-
-.mapa p{
-    margin: 0 0 2em;
-    text-align: center;
-}
-

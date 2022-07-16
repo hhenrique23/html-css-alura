@@ -40,7 +40,6 @@ nav a:hover{
 
 main{
     background-image: linear-gradient(to bottom, white, grey);
-    
 }
 
 .banner{
@@ -81,6 +80,7 @@ main{
     padding: 3em 0;
     width: 1200px;
     margin: 0 auto;
+    box-shadow: inset 1px 1px 30px black;
 }
 
 .conteudo-beneficios{
@@ -106,6 +106,13 @@ main{
 
 .img-beneficios{
     width: 60%;
+    opacity: 1;
+    transition-duration: 0.2s;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.397);
+}
+
+.img-beneficios:hover{
+    opacity: 0.3;
 }
 
 .utensilios{

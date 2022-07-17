@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+header{
+    align-items: center;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    display: block;
+    width: 117px;
+    height: 72px;
+    margin-left: 30px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    margin-left: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

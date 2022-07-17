@@ -2,4 +2,4 @@
  
 Barbearia Alura
 
-<a href="http://hhenrique23.github.io//html-css-alura/blob/main/barberia-alura/index.html">http://html-css-alura/blob/main/barberia-alura/index.html</a>
+<a src="http://hhenrique23.github.io//html-css-alura/blob/main/barberia-alura/index.html">http://html-css-alura/blob/main/barberia-alura/index.html</a>

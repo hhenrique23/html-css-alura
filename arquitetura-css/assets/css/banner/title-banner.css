@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.title-banner{
+    color: #fdfdfd;
+    font-family: 'Pacifico', cursive;
+    font-size: 5.0625rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-shadow: 0 4px 4px black;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}

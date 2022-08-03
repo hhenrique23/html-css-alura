@@ -1,6 +1,16 @@
 .info__text{
     color: #8C8888;
-    font-size: 1.75rem;
-    font-style: normal;
     font-weight: 100;
+}
+
+@media screen and (min-width: 0) {
+    .info__text{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .info__text{
+        font-size: 1.75rem;
+    }
 }

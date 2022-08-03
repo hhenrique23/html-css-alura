@@ -1,8 +1,28 @@
-.recip{
-    width: calc(25% - 5rem);
+.recip{ 
     background-color: #fdfdfd;
     display: flex;
     flex-direction: column;
     margin-bottom: 5rem;
-    margin-right: 5rem;
+    
+}
+
+@media screen and (min-width: 0) {
+    .recip{
+        width: 100%;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .recip{
+        margin-right: 2.5rem;
+        width: calc(33.33% - 2.5rem);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .recip{
+        width: calc(25% - 5rem);
+        margin-right: 5rem;
+    }
 }
